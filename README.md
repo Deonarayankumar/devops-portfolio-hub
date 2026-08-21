@@ -6,7 +6,7 @@ Central index for a project-based DevOps learning portfolio. Each linked reposit
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [cloud-resume](https://github.com/Deonarayankumar/cloud-resume) | Portfolio website — GitHub source, Azure DevOps CI/CD, Vercel hosting | React, Vite, Azure DevOps, Vercel |
+| [cloud-resume](https://github.com/Deonarayankumar/cloud-resume) | [Live portfolio](https://cloud-resume-wheat.vercel.app) — GitHub source, Azure DevOps CI/CD, Vercel hosting | React, Vite, Azure DevOps, Vercel |
 
 ## Foundational labs
 

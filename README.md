@@ -46,3 +46,5 @@ Central index for a project-based DevOps learning portfolio. Each linked reposit
 - No secrets, `.tfstate`, or production data in Git
 - Each repo has a README with prerequisites, usage, and learnings
 - Observable result: test output, pipeline, deployment, or documented exercise
+- Shared git governance: `CODEOWNERS`, `CONTRIBUTING.md`, PR template, branching strategy, and Governance CI (see `templates/github-governance/`)
+- `main` is protected: no force-push, Governance workflow must pass

@@ -1,0 +1,7 @@
+# Default owners for all changes
+* @Deonarayankumar
+
+# Governance files require explicit owner review
+/.github/ @Deonarayankumar
+/CODEOWNERS @Deonarayankumar
+/docs/ @Deonarayankumar

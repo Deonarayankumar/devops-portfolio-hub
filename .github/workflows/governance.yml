@@ -1,0 +1,38 @@
+name: Governance
+
+on:
+  pull_request:
+    branches: [main, master]
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate PR title (Conventional Commits)
+        if: github.event_name == 'pull_request'
+        run: |
+          title="${{ github.event.pull_request.title }}"
+          echo "PR title: $title"
+          echo "$title" | grep -Eq '^(feat|fix|docs|chore|ci|refactor|test)(\(.+\))?: .+'
+
+      - name: Verify governance files
+        run: |
+          test -f README.md
+          test -f CODEOWNERS
+          test -f CONTRIBUTING.md
+          test -f docs/branching-strategy.md
+          test -f .github/pull_request_template.md
+
+      - name: Block committed secrets patterns
+        run: |
+          ! git grep -E '(AKIA[0-9A-Z]{16}|-----BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY-----)' -- ':!*.md' ':!.github/**' || \
+            (echo 'Possible secret detected in tracked files' && exit 1)

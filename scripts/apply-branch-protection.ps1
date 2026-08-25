@@ -54,7 +54,7 @@ $payload = @'
 '@
 
 $tmp = Join-Path $env:TEMP "branch-protection-$([guid]::NewGuid()).json"
-Set-Content -Path $tmp -Value $payload -Encoding utf8NoBOM
+[System.IO.File]::WriteAllText($tmp, $payload)
 
 foreach ($name in $targets) {
     if ($name -eq $SkipRepo) { continue }

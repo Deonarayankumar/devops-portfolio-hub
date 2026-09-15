@@ -32,7 +32,7 @@ $PortfolioRepos = @(
     'devops-kubernetes-lab',
     'devops-e2e-python-pipeline',
     'devops-e2e-terraform-azure',
-    'devops-e2e-k8s-delivery'
+    'production-grade-kubernetes-platform'
 )
 
 $targets = if ($Repo) { @($Repo) } else { $PortfolioRepos }

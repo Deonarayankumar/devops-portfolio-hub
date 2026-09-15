@@ -6,7 +6,7 @@ Central index for a project-based DevOps learning portfolio. Each linked reposit
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [cloud-resume](https://github.com/Deonarayankumar/cloud-resume) | [Live portfolio](https://cloud-resume-wheat.vercel.app) — GitHub source, Azure DevOps CI/CD, Vercel hosting | React, Vite, Azure DevOps, Vercel |
+| [cloud-resume](https://github.com/Deonarayankumar/cloud-resume) | [Live portfolio](https://deonarayan-cloud-resume.vercel.app) — GitHub source, Azure DevOps CI/CD, Vercel hosting | React, Vite, Azure DevOps, Vercel |
 
 ## Foundational labs
 
@@ -29,7 +29,8 @@ Central index for a project-based DevOps learning portfolio. Each linked reposit
 |------------|-------|
 | [devops-e2e-python-pipeline](https://github.com/Deonarayankumar/devops-e2e-python-pipeline) | Multi-service CI/CD with Jenkins, JFrog, SonarQube |
 | [devops-e2e-terraform-azure](https://github.com/Deonarayankumar/devops-e2e-terraform-azure) | Modular Terraform with multi-env approvals |
-| [devops-e2e-k8s-delivery](https://github.com/Deonarayankumar/devops-e2e-k8s-delivery) | Helm-based AKS delivery with rollback |
+| [devops-e2e-k8s-delivery](https://github.com/Deonarayankumar/devops-e2e-k8s-delivery) | Flagship AKS platform: Terraform, GitOps, Gateway API, observability, DR (Jul–Aug 2026) |
+| [devops-e2e-aws-fargate-platform](https://github.com/Deonarayankumar/devops-e2e-aws-fargate-platform) | ECS Fargate, private RDS, ALB, Terraform + GitHub OIDC |
 
 ## Tech stack
 
@@ -38,6 +39,7 @@ Central index for a project-based DevOps learning portfolio. Each linked reposit
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 

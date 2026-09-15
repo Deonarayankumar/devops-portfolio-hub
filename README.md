@@ -29,7 +29,7 @@ Central index for a project-based DevOps learning portfolio. Each linked reposit
 |------------|-------|
 | [devops-e2e-python-pipeline](https://github.com/Deonarayankumar/devops-e2e-python-pipeline) | Multi-service CI/CD with Jenkins, JFrog, SonarQube |
 | [devops-e2e-terraform-azure](https://github.com/Deonarayankumar/devops-e2e-terraform-azure) | Modular Terraform with multi-env approvals |
-| [devops-e2e-k8s-delivery](https://github.com/Deonarayankumar/devops-e2e-k8s-delivery) | Flagship AKS platform: Terraform, GitOps, Gateway API, observability, DR (Jul–Aug 2026) |
+| [production-grade-kubernetes-platform](https://github.com/Deonarayankumar/production-grade-kubernetes-platform) | Flagship AKS platform: Terraform, GitOps, Gateway API, observability, DR (Jul–Aug 2026) |
 | [devops-e2e-aws-fargate-platform](https://github.com/Deonarayankumar/devops-e2e-aws-fargate-platform) | ECS Fargate, private RDS, ALB, Terraform + GitHub OIDC |
 
 ## Tech stack
